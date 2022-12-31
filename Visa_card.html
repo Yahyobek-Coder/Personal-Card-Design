@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card</title>
+    <link rel="stylesheet" href="./css/style.css"> 
+    
+</head>
+
+<body>
+    <div class="card">
+        <div class="card_input card-number">
+            <input type="text" value="5234 2568 7259 9824" onfocus="this.value=''" maxlength="19">
+        </div>
+        <div class="card_flex">
+            <div class="card_input">
+                <label for="holder">holder</label>
+                <input type="text" value="Yahyobek" id="holder" onfocus="this.value=''">
+            </div>
+            <div class="card_input">
+                <label for="expires">Express</label>
+                <input type="text" value="06/21" id="Express" onfocus="this.value=''">
+            </div>
+            <div class="card_input">
+                <label for="cvc">CVC</label>
+                <input type="text" value="123" id="cvc" onfocus="this.value=''" max="999">
+            </div>
+        </div>
+    </div>

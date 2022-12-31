@@ -1,0 +1,60 @@
+.card{
+    top: 100px;
+    left: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 22rem;
+    height: 11rem;
+    border-radius: 30px;
+    background: linear-gradient(140deg,#05ffac,#883bef);
+    color: #fff;
+    padding: 3rem;
+}
+.card::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    background-color: rgba(0,0,0,0.55);
+    filter: blur(48px);
+    z-index: -1;
+}
+.card_visa{
+    width: 6rem;
+    position: absolute;
+    top: 1.2rem;
+    right: 3rem;
+}
+.card_flex{
+    display: flex;
+    align-items: center;
+}
+.card_input label{
+    display: block;
+    text-transform: uppercase;
+    font-size: 0.6rem;
+    font-weight: 900;
+    margin-bottom: 0.4rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+}
+.card_input input{
+    display: block;
+    background: transparent;
+    border: none;
+    color: #fff;
+    font-size: 1.5rem;
+    width: 100%;
+    font-weight: 100;
+    outline: none;
+}
+.card_number input{
+    margin-top: 5rem;
+}
+.card_number input{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 2.2rem;
+    letter-spacing: 0.3rem;
+    outline: none;
+}
